@@ -78,14 +78,14 @@ Once the ESP32 is powered and connected to WiFi, open a browser and navigate to 
 
 ## Repository Structure
 
-\`\`\`
+```
 esp32-rtos-monitor/
 ├── firmware/
 │   └── esp32-rtos-monitor.ino
 ├── media/
 │   └── (photos and videos)
 └── README.md
-\`\`\`
+```
 
 ---
 
