@@ -10,6 +10,13 @@ https://github.com/JadenS180/esp32-rtos-monitor/raw/main/media/rtos_demo.MOV
 
 ---
 
+## Web Dashboard
+
+![Dashboard](media/rtos_dashboard.png)
+![Dashboard 2](media/rtos_dashboard2.png)
+
+---
+
 ## Photos
 
 ### Full Build
