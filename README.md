@@ -4,6 +4,34 @@ A multi-sensor environmental monitor running on FreeRTOS. The ESP32 runs four co
 
 ---
 
+## Demo Video
+
+https://github.com/JadenS180/esp32-rtos-monitor/raw/main/media/rtos_demo.MOV
+
+---
+
+## Photos
+
+### Full Build
+![Full Build](media/rtos_full.JPG)
+![Full Build 2](media/rtos_full2.JPG)
+![Side View](media/rtos_breadboard-side.JPG)
+![Breadboard](media/rtos_breadboard.JPG)
+
+### Components
+| | |
+|---|---|
+| ![ESP32 Front](media/rtos_ESPfront.JPG) | ![ESP32 Back](media/rtos_ESPback.JPG) |
+| ESP32 (front) | ESP32 (back) |
+| ![DHT22 1](media/rtos_DHT1.JPG) | ![DHT22 2](media/rtos_DHT2.JPG) |
+| DHT22 (front) | DHT22 (back) |
+| ![MQ-135 1](media/rtos_MQ1.jpg) | ![MQ-135 2](media/rtos_MQ2.JPG) |
+| MQ-135 (front) | MQ-135 (back) |
+| ![OLED and ADS1115](media/rtos_OLEDADS.JPG) | ![OLED Back](media/rtos_OLEDback.JPG) |
+| SSD1306 OLED and ADS1115 | OLED (back) |
+
+---
+
 ## Features
 
 - Four concurrent FreeRTOS tasks with independent priorities
@@ -70,22 +98,21 @@ Written in Arduino C++ using the Espressif ESP32 package (v3.3.10). FreeRTOS is 
 
 ## Web Dashboard
 
-Once the ESP32 is powered and connected to WiFi, open a browser and navigate to the ESP32's IP address (shown on the OLED at boot). The dashboard auto-refreshes every 3 seconds showing live temperature, humidity, and air quality readings.
-
-*Photos and demo video coming soon.*
+Once the ESP32 is powered and connected to WiFi, open a browser and navigate to the ESP32's IP address shown on the OLED at boot. The dashboard auto-refreshes every 3 seconds showing live temperature, humidity, and air quality readings.
 
 ---
 
 ## Repository Structure
 
-```
+\`\`\`
 esp32-rtos-monitor/
 ├── firmware/
 │   └── esp32-rtos-monitor.ino
 ├── media/
-│   └── (photos and videos)
+│   ├── (photos)
+│   └── (videos)
 └── README.md
-```
+\`\`\`
 
 ---
 
